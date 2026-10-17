@@ -1,0 +1,75 @@
+{
+  "format": "independently gzipped consecutive byte blocks; concatenate decompressed bytes",
+  "filename": "fundat.csv",
+  "bytes": 88572790,
+  "sha256": "4469e36172ef99064eacfee03e181618c12025948a38b69e4903aca3cab8569b",
+  "parts": [
+    {
+      "file": "fundat_parts/part001.gz",
+      "bytes": 3809571,
+      "sha256": "2950578fcefdd7230464542f2d493ff35bbf0d16b7bd11dad2f6264e912f0601"
+    },
+    {
+      "file": "fundat_parts/part002.gz",
+      "bytes": 3838274,
+      "sha256": "ee596d8db87386e02e299f0d4424c37c0a4ec2dabb840c127d4e495c395df645"
+    },
+    {
+      "file": "fundat_parts/part003.gz",
+      "bytes": 3675951,
+      "sha256": "7dc6adf8e58209fcbe4cd04675690f26683218b1a5986631faccd3b3a9fd2219"
+    },
+    {
+      "file": "fundat_parts/part004.gz",
+      "bytes": 3710709,
+      "sha256": "40c7b979c3a35b07e415ff274e1ea00c620c16c0db7df4513a17f9303421d288"
+    },
+    {
+      "file": "fundat_parts/part005.gz",
+      "bytes": 3852296,
+      "sha256": "e4c135b987a1f1bc1f8b2e195cc00f3c3392c6d523c02930408448a1ecaaa7f5"
+    },
+    {
+      "file": "fundat_parts/part006.gz",
+      "bytes": 3845116,
+      "sha256": "592777e710b17824f033a040b19d0ecb7b79c23816e4453cd9617c3879fbfab5"
+    },
+    {
+      "file": "fundat_parts/part007.gz",
+      "bytes": 3852662,
+      "sha256": "6f0b7f26d0bc3de6f460aa7bb192a2010b12c55f8c5a833cad638a22efdc7ac5"
+    },
+    {
+      "file": "fundat_parts/part008.gz",
+      "bytes": 3844378,
+      "sha256": "d2c6332502b44c563425a378a58819d319d6ce2a2663bf970fcca20ab3808a74"
+    },
+    {
+      "file": "fundat_parts/part009.gz",
+      "bytes": 3831535,
+      "sha256": "6ee4cd2cd8316888a155c88099b6d278ada8e737ef1cc832b31589395af4492f"
+    },
+    {
+      "file": "fundat_parts/part010.gz",
+      "bytes": 3779927,
+      "sha256": "7005ce2586acef29fe824d94cb0810a679ebbba8cfc68692c7a708a6950d7042"
+    },
+    {
+      "file": "fundat_parts/part011.gz",
+      "bytes": 2121481,
+      "sha256": "429d5fe04c7a679169d6ee8ee79557e81a05d51f9f272e17efae566f8efa3662"
+    }
+  ],
+  "other_files": [
+    {
+      "file": "regdat_1.csv",
+      "bytes": 347055,
+      "sha256": "7bf75214e752c397f102d1a5f1e7f23a75f7eb7f503a0e3bd38439e0273c5d12"
+    },
+    {
+      "file": "loc_info.csv",
+      "bytes": 24645,
+      "sha256": "b2cd14dc4b2bc347a8da6841061b94ce98692020f444929c9dcec254dcf54aab"
+    }
+  ]
+}
