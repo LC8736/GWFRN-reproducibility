@@ -1,0 +1,73 @@
+{
+  "profile": "production",
+  "replications": 200,
+  "run_start": 1000,
+  "workers": 100,
+  "lattice_sizes": [
+    30,
+    40
+  ],
+  "scenarios": [
+    "linear",
+    "nonlinear_kappa0",
+    "nonlinear_kappa1"
+  ],
+  "errors": [
+    "normal",
+    "student_t",
+    "bimodal"
+  ],
+  "methods": [
+    "GWR",
+    "SGWR",
+    "GNNWR",
+    "SANNWR",
+    "FNN",
+    "GWFRN",
+    "SGWFRN"
+  ],
+  "analysis_basis_dim": 15,
+  "first_hidden_dim": 64,
+  "hidden_dim": 32,
+  "bandwidths": [
+    0.1,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "similarity_alphas": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "smoothness": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "relative_head_ridge": 0.1,
+  "batch_size": 50,
+  "learning_rate": 0.005,
+  "validation_interval": 10,
+  "stages": [
+    {
+      "folds": 3,
+      "total_epochs": 100,
+      "retain": 4
+    },
+    {
+      "folds": 3,
+      "total_epochs": 200,
+      "retain": 2
+    },
+    {
+      "folds": 5,
+      "total_epochs": 300,
+      "retain": 1
+    }
+  ],
+  "baseline_max_epochs": 3000,
+  "baseline_patience": 100,
+  "save_final_models": true,
+  "save_cv_checkpoints": false
+}

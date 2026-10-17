@@ -1,0 +1,41 @@
+Checks performed during repository preparation
+=============================================
+
+Environment: 64-bit Python 3.12.10, Windows, CPU.
+All 22 installed dependencies printed by tools/show_protocol.py matched
+the pinned requirements.txt versions in the checked local environment.
+This is not a claim of a clean installation on a second computer.
+
+Input restoration and source checks:
+  source_rows: 6340
+  county_years_1999_2018: 6152
+  distinct_counties: 403
+  annual_n_min: 255
+  annual_n_max: 345
+  years_per_county_min: 5
+  years_per_county_max: 20
+  precipitation_conversion: annual inches * 25.4 / days in calendar year
+  temperature_sha256:
+    4469e36172ef99064eacfee03e181618c12025948a38b69e4903aca3cab8569b
+  PASS source checksums, county/year keys, NOAA conversion and annual caches.
+
+Software preflight:
+  PASS PySAL GWR class import.
+  PASS author GNNWR model/network class loading.
+  PASS FastSGWR ALPHA selector loading.
+  PASS empirical CLI imports and --help.
+
+Curation checks (local validation scripts are NOT deposited):
+  PASS Python syntax for deposited source files.
+  PASS identical arrays/responses/partitions in all 18 DGP settings
+       versus the result-associated generator at replication ID 1000.
+  PASS 70 retained scientific definitions unchanged apart from SANNWR naming.
+  PASS Table 5 full-precision aggregation recovered from all 1,400 retained
+       empirical OOF records in a separate local validation directory.
+  PASS Figure 2 and Figure 3 numerical source reconstruction and polygon export.
+       These validate aggregation/rendering, not fresh model training.
+       Saved predictions and rendered results are not deposited as inputs.
+
+These checks do not certify full Monte Carlo or empirical retraining replication.
+No 200-replication fitting completion is asserted by this file.
+See REPRODUCIBILITY_STATUS.md for the exact-retraining and upstream-data gaps.
