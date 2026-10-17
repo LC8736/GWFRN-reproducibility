@@ -102,8 +102,6 @@ reproduce.py                 one entry point for preparation, fitting and findin
 simulation/                  seven-method production Monte Carlo implementation
 realdata/                    seven-method annual out-of-fold implementation
 data/input/                  source-study CSVs and compressed temperature chunks
-data/source/                 NOAA county-year precipitation conversion source
-data/geography/              Census county boundaries for both maps
 config/                      empirical parameter manifest
 tools/                       input checks, DGP export and result reconstruction
 figures/                     direct numerical county-map rendering
@@ -141,8 +139,4 @@ screenshots remain to be added as explained there. SANNWR and some
 adapters are transparent reproductions, not falsely labelled official author
 software. See [THIRD_PARTY_NOTICES.md](docs/THIRD_PARTY_NOTICES.md).
 
-This folder is suitable for a **new repository without inherited Git history**.
-Anonymous files uploaded under an identifiable account do not make that account
-anonymous. Use an appropriately blinded hosting arrangement for double-anonymous
-review. Do not include manuscript source/PDF, original working folders or local
-execution logs when uploading this deposit.
+
