@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+generated/
+data/input/fundat.csv
+simulation/results*/
+realdata/cache/
+realdata/results/
+.DS_Store
+Thumbs.db
